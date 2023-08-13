@@ -1,0 +1,40 @@
+---
+import Image from "../assets/React-icon.svg.png";
+---
+
+<div class="flex">
+  <div
+    class="w-full sm:w-[50%] flex flex-col items-center sm:items-end justify-center"
+  >
+    <p class="text-3xl">Hi, my name is</p>
+    <p
+      class="text-5xl bg-gradient-to-tr from-primary-blue to-primary-purple text-transparent bg-clip-text"
+    >
+      Alex
+    </p>
+    <p class="text-2xl">I build things for the web</p>
+    <div class="grid grid-cols-3 w-[60%]">
+      <a href="https://twitter.com/webdevalexc"
+        ><img
+          class="p-6"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+        /></a
+      >
+      <a href="https://www.linkedin.com/in/alexander-clayton-64766090/"
+        ><img
+          class="p-6"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+        /></a
+      >
+      <a href="https://github.com/alexanderclayton"
+        ><img
+          class="p-6"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        /></a
+      >
+    </div>
+  </div>
+  <div class="hidden sm:w-[50%] sm:flex items-start">
+    <img src={Image} alt="placeholder" />
+  </div>
+</div>
